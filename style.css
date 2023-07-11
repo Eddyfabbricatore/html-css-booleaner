@@ -38,3 +38,12 @@ main .foto .caption{
   font-size: .8rem;
   margin-bottom: 10px;
 }
+
+main .text{
+  margin-bottom: 20px;
+}
+
+main ul{
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
