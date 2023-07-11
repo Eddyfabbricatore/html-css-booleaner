@@ -47,3 +47,21 @@ main ul{
   padding-left: 15px;
   margin-bottom: 20px;
 }
+
+main table{
+  text-align: left;
+  border-collapse: collapse;
+}
+
+main table thead{
+  background-color: #23a9e5;
+  color: white;
+}
+
+thead .text{
+  width: 50%;
+}
+
+main table .odd{
+  background-color: #b1e5f2;
+}
