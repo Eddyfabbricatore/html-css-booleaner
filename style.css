@@ -33,3 +33,8 @@ main .dida p{
 main .dida .name{
   color: #4fa0ff;
 }
+
+main .foto .caption{
+  font-size: .8rem;
+  margin-bottom: 10px;
+}
