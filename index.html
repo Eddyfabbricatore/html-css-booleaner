@@ -4,87 +4,110 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Open+Sans:wght@400;500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- custom CSS -->
   <link rel="stylesheet" href="style.css">
-  <title>The Booleaner</title>
+
+  <title>Booleaner</title>
 </head>
 <body>
+
+  <!-- header -->
   <header>
-    <div>
-      <div class="logo">
+    <div class="container">
+      <div class="logo py-3">
         <img src="img/logo.svg" alt="Logo">
       </div>
     </div>
   </header>
+  <!-- /header -->
 
+  <!-- main -->
   <main>
-    <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <div class="container">
+      <h1 class="my-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A, quaerat.</h1>
 
-    <div class="dida">
-      <p>Scritto da <span class="name">Boolean</span></p>
+      <span>Scritto da Booleaner</span>
+      <br>
       <span>14/02/2023</span>
-    </div>
 
-    <div class="foto">
-      <img src="img/tim-1.jpg" alt="tim1">
-      <img src="img/tim-2.jpg" alt="tim2">
-      <div class="caption">
-        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. <br> 
-          Nihil, neque. Hic laborum eum consequuntur eveniet incidunt</span>
+      <div class="row d-flex mt-3">
+        <div class="col w50">
+          <img src="img/tim-1.jpg" alt="Tim1">
+        </div>
+
+        <div class="col w50">
+          <img src="img/tim-2.jpg" alt="Tim2">
+        </div>
       </div>
-    </div>
 
-    <div class="main-text">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, consequuntur? Blanditiis, reprehenderit id dolores iste aperiam quidem accusantium accusamus animi laborum possimus illum vel corrupti deserunt dignissimos veritatis doloremque nemo!
-    </div>
+      <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</span>
+      <br>
+      <span>Lorem ipsum dolor sit amet.</span>
 
-    <ul>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-      <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-    </ul>
+      <p class="mt-3 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quidem est rem recusandae nisi maiores repellendus. Quaerat suscipit voluptates sed iusto vel at molestiae necessitatibus reprehenderit, odio aliquam, maxime eligendi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem deleniti quas dolore veniam quaerat autem dolores hic delectus asperiores harum voluptatem nemo quod quam nisi rerum alias, nobis voluptate eum?</p>
 
-    <table>
-      <thead>
-        <tr>
-          <th>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</th>
-          <th>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</th>
-          <th class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</th>
-        </tr>
-      </thead>
+      <ul class="my-3">
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum soluta consequatur autem sed aperiam consequuntur, perferendis nulla delectus accusamus, quae eos, culpa incidunt neque iste. Asperiores blanditiis ipsum repudiandae. Ipsa.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis natus delectus officia, quaerat, voluptas voluptatum adipisci inventore, deleniti dolorum fugit illo sapiente sequi? Eveniet similique ab, cupiditate debitis exercitationem sed.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem porro sunt, provident aperiam maxime iure nisi saepe accusantium sequi veniam repellendus eum ab eligendi numquam voluptas, architecto cumque quis officiis.</li>
+      </ul>
 
-      <tbody>
-        <tr class="odd">
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-        </tr>
+      <table class="table table-bordered mb-0">
+        <thead>
+          <tr class="table-primary">
+            <th>Lorem ipsum dolor sit amet consectetur adipisicing elit.</th>
+            <th>Lorem ipsum dolor sit amet consectetur adipisicing elit.</th>
+            <th class="w50">Lorem ipsum dolor sit amet consectetur adipisicing elit.</th>
+          </tr>
+        </thead>
   
-        <tr>
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-        </tr>
+        <tbody>
+          <tr class="table-light">
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero ullam quasi dolores eos quisquam est a error saepe possimus quae, ex voluptatem aliquam laboriosam placeat deserunt perspiciatis modi sed?</td>
+          </tr>
   
-        <tr class="odd">
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-          <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</td>
-        </tr>
-      </tbody>
-    </table>
+          <tr class="table-primary">
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero ullam quasi dolores eos quisquam est a error saepe possimus quae, ex voluptatem aliquam laboriosam placeat deserunt perspiciatis modi sed?</td>
+          </tr>
+  
+          <tr class="table-light">
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque vero ullam quasi dolores eos quisquam est a error saepe possimus quae, ex voluptatem aliquam laboriosam placeat deserunt perspiciatis modi sed?</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </main>
+  <!-- /main -->
 
-  <footer>
-    <h4>Potrebbero interessarti</h4>
+  <!-- footer -->
+  <footer class="container py-3">
+    <h3 class="mb-0">Potrebbero interessarti</h3>
 
-    <div class="image-box" id="monitor">
-      <h3>Lorem ipsum</h3>
+    <div class="image-box mt-3" id="monitor">
+      <span class="ms-3">Lorem ipsum</span>
     </div>
 
-    <div class="image-box" id="grafico">
-      <h3>Lorem ipsum</h3>
+    <div class="image-box mt-3" id="grafico">
+      <span class="ms-3">Lorem ipsum</span>
     </div>
   </footer>
+  <!-- /footer -->
+
 </body>
 </html>

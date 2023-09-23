@@ -1,82 +1,41 @@
-*{
-  margin: 0;
-  padding: 0;
+:root{
+  --bg-header: #4ea0ff;
+  --color-h3: #8f8080;
 }
 
+body{
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* header */
 header{
-  background-image: url('img/pattern.png');
-  background-size: 30%;
-  background-color: #4ea0ff;
-  padding-top: 50px;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  background-image: url(img/pattern.png);
+  background-size: 20%;
+  background-color: var(--bg-header);
 }
 
-header .logo img{
-  width: 200px;
+header .logo{
+  width: 150px;
 }
+/* /header */
 
-main, footer{
-  padding: 20px;
-}
 
-main .dida{
-  color: gray;
-  font-size: .9rem;
-  margin-bottom: 10px;
-}
-
-main .dida p{
-  padding-bottom: 5px;
-}
-
-main .dida .name{
-  color: #4fa0ff;
-}
-
-main .foto .caption{
-  font-size: .8rem;
-  margin-bottom: 10px;
-}
-
-main .text{
-  margin-bottom: 20px;
-}
-
-main ul{
-  padding-left: 15px;
-  margin-bottom: 20px;
-}
-
-main table{
-  text-align: left;
-  border-collapse: collapse;
-}
-
-main table thead{
-  background-color: #23a9e5;
-  color: white;
-}
-
-thead .text{
-  width: 50%;
-}
-
-main table .odd{
-  background-color: #b1e5f2;
-}
-
-footer{
-  color: gray;
+/* footer */
+footer h3{
+  color: var(--color-h3);
 }
 
 footer .image-box{
-  width: 290px;
-  height: 190px;
+  width: 300px;
+  height: 200px;
   color: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  background-size: cover;
 }
 
 #monitor{
@@ -86,3 +45,4 @@ footer .image-box{
 #grafico{
   background-image: url('img/graph.jpg');
 }
+/* /footer */
